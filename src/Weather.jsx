@@ -1,20 +1,20 @@
 import { Air, Search, Water } from "@mui/icons-material";
 import React, { useState, useEffect } from "react";
 
-const d1 = "../images/01d.png";
-const n1 = "../images/01n.png";
-const d2 = "../images/02d.png";
-const n2 = "../images/02n.png";
-const d3 = "../images/03d.png";
-const n3 = "../images/03n.png";
-const d4 = "../images/04d.png";
-const n4 = "../images/04n.png";
-const d9 = "../images/09d.png";
-const d10 = "../images/10d.png";
-const d11 = "../images/11d.png";
-const d13 = "../images/13d.png";
-const d50 = "../images/50d.png";
-const unknown = "..images/unknown.png";
+const d1 = "../public/images/01d.png";
+const n1 = "../public/images/01n.png";
+const d2 = "../public/images/02d.png";
+const n2 = "../public/images/02n.png";
+const d3 = "../public/images/03d.png";
+const n3 = "../public/images/03n.png";
+const d4 = "../public/images/04d.png";
+const n4 = "../public/images/04n.png";
+const d9 = "../public/images/09d.png";
+const d10 = "../public/images/10d.png";
+const d11 = "../public/images/11d.png";
+const d13 = "../public/images/13d.png";
+const d50 = "../public/images/50d.png";
+const unknown = "../public/images/unknown.png";
 
 const Weather = () => {
   const year = new Date().getFullYear();
